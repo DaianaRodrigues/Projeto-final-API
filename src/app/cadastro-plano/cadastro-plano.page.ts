@@ -2,7 +2,7 @@ import { Router } from '@angular/router';
 import { CadastroPlanoService } from './cadastro-plano.service';
 import { Component, OnInit } from '@angular/core';
 
-import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
+import { FormGroup, Validators, FormControl } from '@angular/forms';
 import { AlertController } from '@ionic/angular';
 
 @Component({
